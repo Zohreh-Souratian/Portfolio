@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+<header>
+<h2 class="heading">hi</h2>
+<a href="">click me!</a>
+</header>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+	
+	$(function() {
+    // Document is ready! All your code goes inside.
+    // You only need one of these per page
+    alert('hi there')
+    $('.heading').css('color','red');
+    //when the user click on the a element 
+    //alert them that they have clicked it
+    $('a').on('click',function(){
+    	alert('you clicked the element!')
+    })
+});
+
+
+
+
+</script>
+	
+</body>
+</html>

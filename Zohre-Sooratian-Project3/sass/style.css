@@ -1,0 +1,23 @@
+body{text-transform:capitalize;margin:0;padding:0}
+img{max-width:100%}
+.greeting{background:url("../assets/casey-horner-339165.jpg") no-repeat;
+background-size:cover;
+width:100vw;
+height:100vh;
+position:relative}
+.greeting h1
+{margin:0;
+	color:white;
+	position:absolute;
+	bottom:25%;
+	right:25%}
+	.aboutMe
+	{width:100vw;height:100vh}
+	.aboutMe div
+	{float:left;width:33%;height:100vh}
+	.aboutMe div img{height:100vh}
+	.aboutMe .headAbout{position:relative}
+	.aboutMe .headAbout h1{position:absolute;right:25%;bottom:25%;font-size:70px}
+	.aboutMe .headAbout span{color:yellow}
+	.aboutMe .headAbout .pAbout{position:relative}
+	.aboutMe .headAbout .pAbout p{position:absolute;top:50%}

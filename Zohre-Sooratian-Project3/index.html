@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+	<script src="https://use.fontawesome.com/fc2e0d1463.js"></script>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href="sass/style.scss" rel="stylesheet">
+	<link href="sass/style.less" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="greeting" id="home">
+	<h1>hi,this is Hossein</h1>
+	<nav>
+		<ul>
+			<li><a href="#home">home</a></li>
+			<li><a href="#aboutMe">about me</a></li>
+			<li><a href="#skills">Services</a></li>
+			<li><a href="#projects">projects</a></li>
+			<li><a href="#contacts">contact</a></li>
+		</ul>
+	</nav>
+</div>
+<div class="aboutMe clearfix" id="aboutMe">
+	<div class="headAbout">
+		<h1 class="usualTitle">about<br><span>me</span></h1>
+	</div>
+	<div class="pAbout">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae id dicta illum reiciendis sint pariatur dolorum earum dolorem mollitia sed. Quis aut nihil qui perferendis quisquam eius quas magni. Assumenda!
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nam deleniti assumenda officia delectus incidunt aperiam! Est minus voluptates impedit molestias, doloremque ratione aliquid. Unde ex ipsam dolorum nulla ipsum.<br>
+		
+	</div>
+	<div class="imgAbout">
+		<img src="assets/headshot.jpg" alt="">
+	</div>
+</div>
+<div class="skills clearfix" id="skills">
+	<div class="skillsName">
+		<ul>
+			<li><i class="fa fa-code" aria-hidden="true"></i><h2>html</h2></li>
+			<li><i class="fa fa-css3" aria-hidden="true"></i></i><h2>css</h2></li>
+			<li><i class="fa fa-database" aria-hidden="true"></i><h2>javascript</h2></li>
+			<li><i class="fa fa-camera" aria-hidden="true"></i><h2>Sass</h2></li>
+			<li><i class="fa fa-mobile" aria-hidden="true"></i><h2>responsive design</h2></li>
+		</ul>
+	</div>
+	<div class="skillsHead">
+		<h1 class="usualTitle"><span>my </span><br>skills</h1>
+	</div>
+
+</div>
+<div class="projects clearfix" id="projects">
+	<div class="projectsHead">
+		<h1><span>my</span><br>projects</h1>
+	</div>
+	<div class="flickity">
+		<div class="firstImage"><img  src="assets/mobiPage.png"><a href="hackeryou-projects/Zohre-Sooratian-project1/mobi-one-page/index.html">mobi website</a></div>
+		<div class="secondImage"><img  src="assets/samuelLaw.png"><a href="">law websites</a></div>
+		<div class="thirdImage"><img  src="assets/zwebsite.png"><a href="">zwebsite</a></div>
+	</div>
+</div>
+<div class="contact" id="contacts">
+	<div class="contactForm">
+		<form action="">
+			<div><label for="">Name</label><input type="text" name="name"></div>
+			<div><label for="">Email</label><input type="email" name="email"></div>
+			<div><label for="">Message</label><textarea></textarea></div>
+			<div><button>submit</button></div>
+		</form>
+	</div>
+	<div class="contactHead">
+		<h1 class="usualTitle"><span>my</span><br>contact</h1>
+	</div>
+</div>
+<script>
+$('.flickity').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+</script>	
+</body>
+</html>

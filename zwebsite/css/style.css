@@ -1,0 +1,161 @@
+body{
+    width: 100vw;{
+    background-color: #D9EAFF; 
+    }
+       
+}
+
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    width:100vw;
+    height:30vh;
+    
+    
+ }
+
+ #keys {
+   
+    width: 100vw;
+    height: 50vh;
+    margin: 0 auto;
+    display: inline-block;
+ }
+
+#k1 {
+    width:8vw;
+    height:50vh;
+    background-color: #0F2DFF;
+    display: inline-block;
+
+position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+    
+ }
+
+#k2 {
+    width:8vw;
+    height:50vh;
+    background-color: #490FFF;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+      
+ }
+#k3 {
+    width:8vw;
+    height:50vh;
+    background-color: #6E0FFF;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+#k4 {
+    width:8vw;
+    height:50vh;
+    background-color: #9D0FFF;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+
+#k5 {
+    width:8vw;
+    height:50vh;
+    background-color: #E02DFF;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+
+#k6 {
+    width:8vw;
+    height:50vh;
+    background-color: #FF37B7;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+
+#k7 {
+    width:8vw;
+    height:50vh;
+    background-color: #FE322C;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+
+#k8 {
+    width:8vw;
+    height:50vh;
+    background-color: #FF500F;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+
+#k9 {
+    width:8vw;
+    height:50vh;
+    background-color: #FF6E0F;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+#k10 {
+    width:8vw;
+    height:50vh;
+    background-color: #FF990F;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+#k11 {
+    width:8vw;
+    height:50vh;
+    background-color: #FFC50F;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+#k12 {
+    width:8vw;
+    height:50vh;
+    background-color: #FFF80F;
+     display: inline-block;
+     position: relative;
+  top: 0;
+  transition: top ease 2.2s;
+ }
+
+#keys > div:hover {
+    background-color: #4BEDA3;
+    cursor: pointer;
+   transition: background-color 1.5s linear;
+   box-shadow: 20px 20px 10px #888888;
+   top: -200px;
+
+
+}
+
+#keys > div {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
