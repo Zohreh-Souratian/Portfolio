@@ -1,0 +1,49 @@
+.square{
+	float:left;
+	background-color: purple;
+	width:calc(33.3% - 30px);
+	height: 200px;
+	margin:5px;
+	border-radius: 20px;
+	transition: all 0.3s;
+}
+
+#container{
+	width:60%;
+	margin: 0 auto;
+}
+body{
+	background-color: black;
+	color:white;
+	margin: 0;
+}
+#status{
+	color:rgb(66, 121, 209);
+	width: 10%;
+}
+.header{
+	padding: 20px;
+	text-align: center;
+	background-color:rgb(66, 121, 209);
+
+}
+.rowHeader{
+	text-align: center;
+	background-color: white;
+}
+button{
+	margin: 0px;
+	border:none;
+	font-weight: bold;
+	padding: 10px;
+	transition: all 0.5s;
+}
+button:hover{
+	background-color:rgb(66, 121, 209);
+}
+h2{
+	margin: 0;
+}
+.selected{
+	background-color: rgb(66, 121, 209);
+}
